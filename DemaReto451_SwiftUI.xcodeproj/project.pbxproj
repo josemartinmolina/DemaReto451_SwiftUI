@@ -6,8 +6,15 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		D17AE10C3063615E00AAEF05 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = D17AE10B3063615600AAEF05 /* .gitignore */; };
+		D17AE10E306361DE00AAEF05 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D17AE10D306361D500AAEF05 /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		D17AE0FD3063608C00AAEF05 /* DemaReto451_SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemaReto451_SwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D17AE10B3063615600AAEF05 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		D17AE10D306361D500AAEF05 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +39,8 @@
 		D17AE0F43063608C00AAEF05 = {
 			isa = PBXGroup;
 			children = (
+				D17AE10D306361D500AAEF05 /* README.md */,
+				D17AE10B3063615600AAEF05 /* .gitignore */,
 				D17AE0FF3063608C00AAEF05 /* DemaReto451_SwiftUI */,
 				D17AE0FE3063608C00AAEF05 /* Products */,
 			);
@@ -109,6 +118,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D17AE10E306361DE00AAEF05 /* README.md in Resources */,
+				D17AE10C3063615E00AAEF05 /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
