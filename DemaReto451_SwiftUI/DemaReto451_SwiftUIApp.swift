@@ -9,10 +9,17 @@ import SwiftUI
 
 @main
 struct DemaReto451_SwiftUIApp: App {
+    @AppStorage("isLoggedIn") private var isLoggedIn = false
     var body: some Scene {
         WindowGroup {
             //ContentView()
-            RegistroUsuario()
+            if isLoggedIn{
+                HomeScreen()
+            }else{
+                NavigationStack {
+                    Login()
+                }
+            }
         }
     }
 }
