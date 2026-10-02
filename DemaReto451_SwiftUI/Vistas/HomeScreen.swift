@@ -27,6 +27,11 @@ struct HomeScreen: View {
                     Label("Estadisticas", systemImage:"list.dash.header.rectangle")
                 }
                 Tab{
+                    ManejoFoto()
+                }label:{
+                    Label("Foto", systemImage:"camera")
+                }
+                Tab{
                     NavigationStack{
                         
                             Text("Página perfil del usuario")
