@@ -11,10 +11,21 @@
 		D17AE10E306361DE00AAEF05 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D17AE10D306361D500AAEF05 /* README.md */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		D1932D8E3071CD1500B167A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D17AE0F53063608C00AAEF05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D17AE0FC3063608C00AAEF05;
+			remoteInfo = DemaReto451_SwiftUI;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		D17AE0FD3063608C00AAEF05 /* DemaReto451_SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemaReto451_SwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D17AE10B3063615600AAEF05 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		D17AE10D306361D500AAEF05 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D1932D8A3071CD1400B167A2 /* DemaReto451_SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemaReto451_SwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -36,10 +47,22 @@
 			path = DemaReto451_SwiftUI;
 			sourceTree = "<group>";
 		};
+		D1932D8B3071CD1500B167A2 /* DemaReto451_SwiftUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DemaReto451_SwiftUITests;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		D17AE0FA3063608C00AAEF05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1932D873071CD1400B167A2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -55,6 +78,7 @@
 				D17AE10D306361D500AAEF05 /* README.md */,
 				D17AE10B3063615600AAEF05 /* .gitignore */,
 				D17AE0FF3063608C00AAEF05 /* DemaReto451_SwiftUI */,
+				D1932D8B3071CD1500B167A2 /* DemaReto451_SwiftUITests */,
 				D17AE0FE3063608C00AAEF05 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -63,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				D17AE0FD3063608C00AAEF05 /* DemaReto451_SwiftUI.app */,
+				D1932D8A3071CD1400B167A2 /* DemaReto451_SwiftUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -92,6 +117,29 @@
 			productReference = D17AE0FD3063608C00AAEF05 /* DemaReto451_SwiftUI.app */;
 			productType = "com.apple.product-type.application";
 		};
+		D1932D893071CD1400B167A2 /* DemaReto451_SwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1932D923071CD1500B167A2 /* Build configuration list for PBXNativeTarget "DemaReto451_SwiftUITests" */;
+			buildPhases = (
+				D1932D863071CD1400B167A2 /* Sources */,
+				D1932D873071CD1400B167A2 /* Frameworks */,
+				D1932D883071CD1400B167A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1932D8F3071CD1500B167A2 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D1932D8B3071CD1500B167A2 /* DemaReto451_SwiftUITests */,
+			);
+			name = DemaReto451_SwiftUITests;
+			packageProductDependencies = (
+			);
+			productName = DemaReto451_SwiftUITests;
+			productReference = D1932D8A3071CD1400B167A2 /* DemaReto451_SwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -104,6 +152,10 @@
 				TargetAttributes = {
 					D17AE0FC3063608C00AAEF05 = {
 						CreatedOnToolsVersion = 26.5;
+					};
+					D1932D893071CD1400B167A2 = {
+						CreatedOnToolsVersion = 26.5;
+						TestTargetID = D17AE0FC3063608C00AAEF05;
 					};
 				};
 			};
@@ -122,6 +174,7 @@
 			projectRoot = "";
 			targets = (
 				D17AE0FC3063608C00AAEF05 /* DemaReto451_SwiftUI */,
+				D1932D893071CD1400B167A2 /* DemaReto451_SwiftUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -136,6 +189,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D1932D883071CD1400B167A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -146,7 +206,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D1932D863071CD1400B167A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D1932D8F3071CD1500B167A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D17AE0FC3063608C00AAEF05 /* DemaReto451_SwiftUI */;
+			targetProxy = D1932D8E3071CD1500B167A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		D17AE1063063608E00AAEF05 /* Debug */ = {
@@ -332,6 +407,46 @@
 			};
 			name = Release;
 		};
+		D1932D903071CD1500B167A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mx.A012345678.DemaReto451-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemaReto451_SwiftUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DemaReto451_SwiftUI";
+			};
+			name = Debug;
+		};
+		D1932D913071CD1500B167A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mx.A012345678.DemaReto451-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemaReto451_SwiftUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DemaReto451_SwiftUI";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -349,6 +464,15 @@
 			buildConfigurations = (
 				D17AE1093063608E00AAEF05 /* Debug */,
 				D17AE10A3063608E00AAEF05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1932D923071CD1500B167A2 /* Build configuration list for PBXNativeTarget "DemaReto451_SwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1932D903071CD1500B167A2 /* Debug */,
+				D1932D913071CD1500B167A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
